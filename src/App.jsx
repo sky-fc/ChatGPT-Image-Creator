@@ -10,7 +10,7 @@ function App() {
   const [result, setResult] = useState('');
   const [loading, setLoading] = useState(false);
   const [placeholder, setPlaceholder] = useState(
-    'Search Bears with Paint Brushes the Starry Night, painted by Vincent Van Gogh..'
+    'Painting of 2 dogs playing poker, in the style of Vermeer.'
   );
   const [prompt, setPrompt] = useState(placeholder);
 
