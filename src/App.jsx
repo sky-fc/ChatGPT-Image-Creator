@@ -29,7 +29,7 @@ function App() {
         n: 1,
         size: '1024x1024',
       });
-      setLoading(false);
+      setLoading(true);
       setResult(res.data.data[0].url);
     } catch (err) {
       console.log(err);
